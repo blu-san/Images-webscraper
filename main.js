@@ -54,7 +54,7 @@ function initScrape(url, plugin = new MyPlugin()) {
     };    
     
     scrape(options).then(() => {
-        console.log('Website succesfully downloaded');
+        console.log('Website data fetched.');
     }).catch(err => {
         throw err;
     });  
